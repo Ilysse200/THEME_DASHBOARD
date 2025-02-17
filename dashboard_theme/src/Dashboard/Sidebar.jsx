@@ -11,7 +11,7 @@ import { TbFile } from "react-icons/tb";
 import { FcStatistics } from "react-icons/fc";
 import { RiBarChartHorizontalFill } from "react-icons/ri";
 import { FaCircleNotch } from "react-icons/fa";
-
+import avatar_image from "../assets/avatar-1.jpg";
 //Icon for toggling the list in the sidebar for the dashboard
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -42,7 +42,7 @@ function Sidebar() {
     <div className='sidebar'>
         <div className='admin-menu'>
             <div className='admin-info'>
-            <img src='' className='avatar-icon'/>
+            <img src={avatar_image} className='avatar-icon'/>
             <p className='admin-name'>John Smith<br/>Administrator</p>
             </div>
         

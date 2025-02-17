@@ -1,17 +1,14 @@
 .sidebar{
     /* position:fixed; */
-    width: 18rem;
+    width: 22rem;
     height: 180vh;
     background-color: #f8f9fa;
+    border-right: 1px dashed #a7abad;
+    /* border-style: ; */
 }
 
-.sidebar-menu{
-    width:18rem;
-    /* height: 12vh; */
-    /* background-color: #cddff6; */
-}
 .admin-menu{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-left: 1rem;
     width: 14.7rem;
     height: 24vh;
@@ -29,9 +26,11 @@
 }
 .avatar-icon{
     /* margin-top: 0.2rem; */
-    width: 8rem;
+    
+    width: 4rem;
     justify-items: left;
-    height: 7vh;
+    height: 7.5vh;
+    border-radius: 88px;
 }
 .sidebar-list{
     list-style-type: none;
