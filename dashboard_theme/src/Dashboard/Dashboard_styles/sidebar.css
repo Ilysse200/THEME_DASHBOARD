@@ -1,0 +1,144 @@
+.sidebar{
+    /* position:fixed; */
+    width: 18rem;
+    height: 180vh;
+    background-color: #f8f9fa;
+}
+
+.sidebar-menu{
+    width:18rem;
+    /* height: 12vh; */
+    /* background-color: #cddff6; */
+}
+.admin-menu{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 14.7rem;
+    height: 24vh;
+    border: 1px solid #bec4c8;
+    background-color: #f3f5f7;
+    padding-left: 0.8rem;
+    border-radius: 0.5rem;
+}
+.admin-info{
+    padding-top: 0.9rem;
+    display: flex;
+    /* background-color: #bdc3c6; */
+    /* flex-direction: column; */
+    /* padding-right: 1.4rem; */
+}
+.avatar-icon{
+    /* margin-top: 0.2rem; */
+    width: 8rem;
+    justify-items: left;
+    height: 7vh;
+}
+.sidebar-list{
+    list-style-type: none;
+    margin-top: 1.8rem;
+}
+.sidebar-list li{
+    font-size: 18px;
+}
+.admin-name{
+    width: 5.7rem;
+    height: 1vh;
+    margin-right: 3.2rem;
+}
+.account-icon{
+    margin-top: 0.2rem;
+    width: 3rem;
+    height: 2vh;
+}
+ul li:hover::marker{
+    color:blue
+}
+.nav-title{
+    font-size: 14px;
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+}
+.nav-list{
+    margin-left: 2rem;
+    font-size: 17px;
+    /* color: #929596; */
+}
+.dashboard-list{
+    margin-left: -1.5rem;
+    list-style-type: none;
+    border: 1px solid #a5c4fc;
+    background-color: #cfdcfc;
+    margin-bottom: 0.4rem;
+    width:13rem;
+    height: 2.4vh;
+    border-radius: 0.5rem;
+    padding-top: 0.63rem;
+    padding-left: 3.5rem;
+}
+.dashboard-icon{
+    margin-left: -2.8rem;
+    margin-right: 2rem;
+}
+.forward-icon{
+    margin-left: 1.3rem;
+    width: 5.9rem;
+    height: 0.9rem;
+}
+.dashboard-list :hover{
+    /* background-color: rgb(7, 66, 117); */
+}
+.file-icon{
+    width: 3rem;
+    height: 2vh;
+    margin-top: 0.14rem;
+    margin-left: -3.8rem;
+    margin-right: 0.8rem;
+}
+.nav-list li{
+    padding-top: 0.6rem;
+    padding-bottom: 1.5rem;
+}
+.nav-list li:hover{
+    cursor: pointer;
+    /* list-style-type:circle; */
+    
+}
+.layouts-list{
+    list-style-type: disc;
+    padding-bottom: 1.8rem;
+    /* padding-bottom: 2.4rem; */
+
+}
+.layouts-list li{
+    margin-top: 1.4rem;
+    padding-bottom: 0.8rem;
+}
+.widget-list{
+    margin-left: 0.1rem;
+    font-size: 18px;
+    list-style-type: none;
+}
+.widget-list li{
+    padding-bottom: 0.8rem;
+    padding-top: -0.9rem;
+    padding-right: 0.5rem;
+    margin-left: 0.8rem;
+    line-height: 2.5rem;
+
+}
+.widget-icons{
+    /* position: absolute; */
+    width: 1.5rem;
+    height: 0.9rem;
+    margin-right: 0.2rem;
+}
+.widget-list li:hover{
+    cursor: pointer;
+    background-color:#c4ccd3;
+    width:14.5rem;
+    height: 4.6vh;
+    border-radius: 0.2rem;
+    /* margin-left: 1.4rem; */
+}
