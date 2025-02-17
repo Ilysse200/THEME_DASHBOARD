@@ -6,9 +6,26 @@
     border-right: 1px dashed #a7abad;
     /* border-style: ; */
 }
+.content-prefix, .top-sidebarcontent{
+    padding-left: 1.52rem;
+    color: #4786fc;
+}
+.content-prefix{
+    position: absolute;
+    top: 3.4rem;
+    margin-left: 3.2rem;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+.top-sidebarcontent{
+    font-size: 38px;
+    padding-top: 4rem;
+    font-weight: 600;
+}
 
 .admin-menu{
-    /* margin-top: 2rem; */
+    /* position: absolute; */
+    margin-top: 2rem;
     margin-left: 1rem;
     width: 14.7rem;
     height: 24vh;
@@ -42,6 +59,7 @@
 .admin-name{
     width: 5.7rem;
     height: 1vh;
+    margin-left: 0.8rem;
     margin-right: 3.2rem;
 }
 .account-icon{
@@ -140,4 +158,9 @@ ul li:hover::marker{
     height: 4.6vh;
     border-radius: 0.2rem;
     /* margin-left: 1.4rem; */
+}
+.admin-content li{
+    margin-left: 1.2rem;
+    font-size: 18px;
+    padding-bottom: 1rem;
 }

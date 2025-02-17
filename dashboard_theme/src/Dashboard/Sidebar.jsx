@@ -40,10 +40,12 @@ function Sidebar() {
 
   return (
     <div className='sidebar'>
+        <p className='top-sidebarcontent'>Able</p>
+        <p className='content-prefix'>Pro</p>
         <div className='admin-menu'>
             <div className='admin-info'>
             <img src={avatar_image} className='avatar-icon'/>
-            <p className='admin-name'>John Smith<br/>Administrator</p>
+            <p className='admin-name'><strong>John Smith</strong><br/>Administrator</p>
             </div>
         
             <ul className='sidebar-list'>
