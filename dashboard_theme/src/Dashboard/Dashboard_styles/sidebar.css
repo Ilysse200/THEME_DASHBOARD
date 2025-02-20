@@ -1,6 +1,6 @@
 .sidebar{
     /* position:fixed; */
-    width: 22rem;
+    width: 20.8rem;
     height: 180vh;
     background-color: #f8f9fa;
     border-right: 1px dashed #a7abad;
@@ -12,23 +12,35 @@
 }
 .content-prefix{
     position: absolute;
-    top: 3.4rem;
-    margin-left: 3.2rem;
+    top: 1.38rem;
+    margin-left: 3.8rem;
     font-size: 12px;
     text-transform: lowercase;
 }
 .top-sidebarcontent{
     font-size: 38px;
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-weight: 600;
 }
 
 .admin-menu{
-    /* position: absolute; */
-    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
     margin-left: 1rem;
-    width: 14.7rem;
-    height: 24vh;
+    width: 15rem;
+    border: 1px solid #bec4c8;
+    padding-left: 0.8rem;
+    border-radius: 0.5rem;
+    /* position: absolute; */
+    background-color: #EDEEEF;
+    
+}
+.admin-menu.open{
+    background-color: #EDEEEF;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 26vh;
     border: 1px solid #bec4c8;
     background-color: #f3f5f7;
     padding-left: 0.8rem;
@@ -42,8 +54,8 @@
     /* padding-right: 1.4rem; */
 }
 .avatar-icon{
-    /* margin-top: 0.2rem; */
-    
+    margin-top: -0.2rem;
+    margin-bottom: 0.29rem;;
     width: 4rem;
     justify-items: left;
     height: 7.5vh;
@@ -51,10 +63,17 @@
 }
 .sidebar-list{
     list-style-type: none;
-    margin-top: 1.8rem;
+    margin-top: 1.4rem;
 }
 .sidebar-list li{
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 0.3rem;
+    padding-left: 2.8rem;
+    
+}
+.description{
+    padding-top: -0.7rem;
+    /* padding-left: 0.5rem; */
 }
 .admin-name{
     width: 5.7rem;
@@ -64,8 +83,28 @@
 }
 .account-icon{
     margin-top: 0.2rem;
-    width: 3rem;
-    height: 2vh;
+    width: 3.7rem;
+    height: 2.2vh;
+    position: absolute;
+    margin-left: -3.5rem;
+    margin-bottom: 0.3rem;
+}
+.filter-container{
+    position: absolute;
+    border: 1px solid #a7abad;
+    width: 2.6rem;
+    height: 4.8vh;
+    border-radius: 4.6rem;
+    margin-left: 11.8rem;
+    margin-top: 0.58rem;
+    background-color: #ABAFB1;
+}
+.filter-icon{
+    width: 4rem;
+    height: 2.8vh;
+    position: absolute;
+    margin-top: 0.49rem;
+    margin-left: -0.7rem;
 }
 ul li:hover::marker{
     color:blue
@@ -79,7 +118,7 @@ ul li:hover::marker{
 }
 .nav-list{
     margin-left: 2rem;
-    font-size: 17px;
+    font-size: 20px;
     /* color: #929596; */
 }
 .dashboard-list{
@@ -159,8 +198,20 @@ ul li:hover::marker{
     border-radius: 0.2rem;
     /* margin-left: 1.4rem; */
 }
-.admin-content li{
-    margin-left: 1.2rem;
-    font-size: 18px;
-    padding-bottom: 1rem;
+
+/*This is the begginning of the admin content css*/
+.admin-content{
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 1rem;
+}
+.online-courses{
+    position: absolute;
+    width: 1.3rem;
+    height: 2.9vh;
+    margin-left: -2.4rem;
+}
+.main-list{
+    margin-left: 2.4rem;
+    padding-bottom: 0.76rem;
 }
